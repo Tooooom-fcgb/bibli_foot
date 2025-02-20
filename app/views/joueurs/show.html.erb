@@ -3,7 +3,7 @@
 <%= render @joueur %>
 
 <div>
-  <%= link_to "Edit this joueur", edit_joueur_path(@joueur) %> |
+  <%= link_to image_tag "Edit this joueur", edit_joueur_path(@joueur) %> |
   <%= link_to "Back to joueurs", joueurs_path %>
 
   <%= button_to "Destroy this joueur", @joueur, method: :delete %>
